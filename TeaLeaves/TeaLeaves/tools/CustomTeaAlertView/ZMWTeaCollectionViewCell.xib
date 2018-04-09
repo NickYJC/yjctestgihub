@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ZMWTeaIdentifier" id="gTV-IL-0wX" customClass="ZMWTeaCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="253" height="321"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="253" height="321"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jbV-SW-qvl">
+                        <color key="backgroundColor" red="0.28958413004875183" green="0.31462949514389038" blue="0.32950475811958313" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </webView>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="jbV-SW-qvl" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Alz-0S-yZd"/>
+                <constraint firstAttribute="trailing" secondItem="jbV-SW-qvl" secondAttribute="trailing" id="YxA-hf-vY5"/>
+                <constraint firstItem="jbV-SW-qvl" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="et9-JL-FZh"/>
+                <constraint firstAttribute="bottom" secondItem="jbV-SW-qvl" secondAttribute="bottom" id="wQL-5r-TtQ"/>
+            </constraints>
+            <size key="customSize" width="253" height="321"/>
+            <connections>
+                <outlet property="webView" destination="jbV-SW-qvl" id="hcK-45-jzM"/>
+            </connections>
+            <point key="canvasLocation" x="259.5" y="219.5"/>
+        </collectionViewCell>
+    </objects>
+</document>

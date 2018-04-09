@@ -1,0 +1,25 @@
+platform :ios, '8.0'
+use_frameworks!
+
+target ‘TeaLeaves’ do
+pod 'FMDB', '~> 2.5'
+pod 'WZLBadge', '~> 1.2.1'
+pod 'SWTableViewCell', '~> 0.3.7'
+pod 'SDWebImage', '~> 3.7.3'
+pod 'TYAlertController', '~> 1.1.2'
+pod 'SVProgressHUD', '~> 2.0-beta'
+pod 'MJRefresh', '~> 3.0.6'
+pod 'MBProgressHUD', '~> 0.9.1'
+pod 'MJExtension', '~> 3.0.7'
+pod 'Masonry'
+pod 'IQKeyboardManager', '~> 3.3.4'
+pod 'SocketRocket', '~> 0.4.2'
+pod 'EAIntroView', '~> 2.8.1'
+pod 'libqrencode', '~> 3.4.2'
+pod 'XMLReader-Arc', '~> 1.1'
+pod 'WebViewJavascriptBridge', '~> 5.0.5'
+pod 'MarqueeLabel'
+pod 'ReactiveObjC', '~> 2.1.0'
+
+end
+
